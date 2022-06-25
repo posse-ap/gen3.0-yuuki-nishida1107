@@ -1,0 +1,74 @@
+.heder-logo{
+    margin-left: 24px;
+    margin-top:26px;
+}
+.main-nav{
+    display:flex;
+    list-style: none;
+}
+.main-nav li{
+    margin-left:32px;
+    margin-top:22px;
+    margin-right: 22px;
+}
+.page-header{
+    display:flex;
+    justify-content:space-between;
+    margin:auto;
+}
+.wrapper{
+    margin:auto;
+}
+.main-footer{
+    margin-top:900px;
+    border-top:solid #EEEEEE;
+    border-bottom:solid #EEEEEE;
+}
+.line-image{
+    border-radius: 16px;
+    width:100%;
+    opacity:0.1;
+    display:block;
+    margin:auto;
+}
+.line-page{
+    background-color: #0071BC;
+    border-radius: 16px;
+    margin:auto;
+    position:relative;
+    width:550px;
+}
+.line-page-content{
+    position:absolute;
+    top:50%;
+    left: 50%;
+    font-weight: bold;
+    transform:translate(-50%, -50%);
+    color:#EEEEEE;
+    text-align: center;
+}
+.line{
+    font-size: 26px;
+    line-height: 64px;
+    padding-left: 25px;
+}
+.line::before{
+    background-image: url(./assets-ph1-website/img/icon/icon-line.svg);
+    content: "";
+}
+.content{
+    font-size: 4px;
+    line-height: 16px;
+    text-align: center;
+    width: 400px;
+}
+.footer-logo{
+    text-align: center;
+    padding-top:56px;
+}
+.copyright{
+    font-size: 14px;
+    text-align: center;
+    color:gray;
+    padding-bottom:70px;
+}
